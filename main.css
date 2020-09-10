@@ -5,10 +5,15 @@ body * {
     vertical-align: top;
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 15px;
 }
 
 
+
 body {
+    background-image: url("Background.png");
+    background-repeat: no-repeat;
     background-color: #00B3D4;
 }
     .container {
@@ -22,7 +27,10 @@ body {
             width: 40%;
             float: left;
             padding: 60px;
-            background-color: #3F36A7;
+            background-color: purple;
+            background-image: url("leftback.png");
+            background-repeat: no-repeat;
+
             margin-top: 40px;
         }
             .title {
@@ -33,9 +41,6 @@ body {
                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                 color: #ffff;
                 margin-right: 35px;
-
-                
-                
 
             }
             .footer {
@@ -59,23 +64,17 @@ body {
 
         .right-column {
             display: inline-block;
-            width: 60%;
-            margin: 0;
+            width: 60%;      
             float: left;
-            padding: 90px;
             background-color: #fff;
+            
         
         }
         form {
             width: 250px;
             padding: 50px;
             float: left;
-            box-sizing: border-box;
-            
-            
-            
-            
-        
+            color: grey;  
         }
         footer {
             display: inline-block;
@@ -83,12 +82,7 @@ body {
             float: left;
             margin: 0;
             margin-top: 25px;
-            
-            
-            
-            
-            
-            
+                 
         }
         
         a {
