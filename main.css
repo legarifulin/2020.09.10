@@ -12,9 +12,9 @@ body * {
 
 
 body {
-    background-image: url("Background.png");
+    background-image: url("./Background.png");
     background-repeat: no-repeat;
-    background-color: #00B3D4;
+    
 }
     .container {
         display: inline-block;
@@ -27,7 +27,7 @@ body {
             width: 40%;
             float: left;
             background-color: purple;
-            background-image: url("leftback.png");
+            background-image: url("./leftback.png");
             background-repeat: no-repeat;
 
             margin-top: 40px;
